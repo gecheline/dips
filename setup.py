@@ -14,7 +14,7 @@ setuptools.setup(
     long_description_content_type='text/markdown',
     url='https://github.com/aprsa/dips',
     packages=setuptools.find_packages(),
-    scripts=['bin/dips'],
+    # scripts=['bin/dips'],
     install_requires=[
         'numpy',
         'scipy >= 0.13.0',
